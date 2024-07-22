@@ -17,7 +17,7 @@ const CrewList = ({ crews }: CrewListProps) => {
           key={crew}
           className="p-4 h-20 border-b border-l border-black border-r"
         >
-          <div className="bg-green-300 p-2 border rounded bg-gray-200 h-full flex items-center justify-center">
+          <div className="bg-green-300 p-2 border rounded bg-gray-200 h-full flex items-center justify-center border border-2 border-black">
             {crew}
           </div>
         </div>

@@ -41,8 +41,8 @@ function ScheduleForm({ onAddSchedule, onClose }: ScheduleFormProps) {
           required
         />
       </div>
-      <div className="flex gap-4 mb-4">
-        <div>
+      <div className="grid gap-4 my-4 md:grid-cols-2">
+        <div className="flex flex-col">
           <label
             htmlFor="start"
             className="block text-sm font-medium text-gray-700"
@@ -58,7 +58,7 @@ function ScheduleForm({ onAddSchedule, onClose }: ScheduleFormProps) {
             required
           />
         </div>
-        <div>
+        <div className="flex flex-col">
           <label
             htmlFor="end"
             className="block text-sm font-medium text-gray-700"
